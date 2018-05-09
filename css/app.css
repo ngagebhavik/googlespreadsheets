@@ -1,3 +1,5 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 .rightAligned
 {
   text-align: right;
@@ -13,7 +15,7 @@
   margin:10px;
 }
 
-.textboxWidth200
+.controlWidth200
 {
   width: 200px;
 }

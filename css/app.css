@@ -1,0 +1,19 @@
+.rightAligned
+{
+  text-align: right;
+}
+
+.leftAligned
+{
+  text-align: left;
+}
+
+.marginAll
+{
+  margin:10px;
+}
+
+.textboxWidth200
+{
+  width: 200px;
+}

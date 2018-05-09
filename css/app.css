@@ -1,5 +1,6 @@
 html, body {
-    overflow: hidden; width: inherit;   
+    margin:0px;
+    overflow: hidden;
 }
 
 .rightAligned
@@ -10,6 +11,11 @@ html, body {
 .leftAligned
 {
   text-align: left;
+}
+
+.centerAligned
+{
+  text-align: center;
 }
 
 .marginAll

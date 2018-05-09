@@ -73,15 +73,16 @@ $(document).ready(function(){
 });
 
 $('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  });
-})
-
+    e.preventDefault();
+    var jqxhr = $.ajax({
+      url: url,
+      method: "GET",
+      dataType: "json",
+      data: $form.serializeObject()
+    }).success(
+      alert("Entry has been successfully generated !")
+    );
+  })
 </script>
 </body>
 

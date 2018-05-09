@@ -1,6 +1,5 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+    max-width: 100%;    
 }
 
 .rightAligned
@@ -21,4 +20,9 @@ html, body {
 .controlWidth200
 {
   width: 200px;
+}
+
+.controlWidth400
+{
+  width: 400px;
 }

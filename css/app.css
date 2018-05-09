@@ -39,6 +39,7 @@ html, body {
   color:white;
   font-size:15px;
   text-align: center;
-  bottom:0px;  
+  bottom:0px;
+  margin-top:20px;
   width:100%;
 }

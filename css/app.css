@@ -32,3 +32,11 @@ html, body {
 {
   width: 400px;
 }
+
+.footerText
+{
+  background-color: black;
+  color:white;
+  font-size:15px;
+  text-align: center; 
+}

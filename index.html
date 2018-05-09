@@ -48,13 +48,30 @@
  </div>
 
  <div class="form-group">
-   <label class="control-label col-sm-2" for="Amount"></label>
-   <div class="col-sm-10 controlWidth200">
-     <button type="submit" class="btn btn-primary">Make An Entry</button>
+   <label class="control-label col-sm-2" for=""></label>
+   <div class="col-sm-10">
+     <button type="submit" class="btn btn-primary" id="submit-form">Make An Entry</button>
    </div>
  </div>
 </form>
 
 </center>
+<script>
+var $form = $('form#test-form'),
+    url = 'https://script.google.com/macros/s/AKfycbxYPRcdfGPVF_kHBfa6VqAajGp8-x7ZdCLB_hIQfafrl4tRMsHg/exec'
+
+$('#submit-form').on('click', function(e) {
+  e.preventDefault();
+  var jqxhr = $.ajax({
+    url: url,
+    method: "GET",
+    dataType: "json",
+    data: $form.serializeObject()
+  }).success(
+    // do something
+  );
+})
+</script>
 </body>
+
 </html>
